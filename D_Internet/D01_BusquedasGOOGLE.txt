@@ -1,0 +1,29 @@
+BUSQUEDAS EN GOOGLE:
+
+
+filetype:txt inurl:"passwords"      # filtra para que la URL contenga la palabra Passsword
+                                    # y el archivo sea texto, tambien el tipo de
+                                    # archivo puede ser csv
+
+inurl:"/view.shtml"                 # busca camaras con direcciones IPs publicas
+
+intitle:"index of" "backup"         # buscamos para que en el titulo contenga la 
+                                    # palabra index of, tambien podemos filtar para
+                                    # que la extenxion sea ZIP o SQL, esto nos lleva
+                                    # a los sitios de donde podemos hacer las descargas
+                                    # de estos archivos
+
+filetype:xls inurl:"email"          # buscar archivos del tipo excel y que dentro de la
+                                    # URL contenga la palabra email
+                                
+inurl:admin intitle:login_          # busqueda de logins vulnerables
+
+
+site:github.com "API_KEY" OR "password" OR "token"
+                                    # Busca dentro de GitHub y que las palabras que 
+                                    # contengan sean API, TOKEN o PASSWORD
+
+inurl:hp/device/this.LCDispatcher   # busca impresoras HP expuestas en Internet 
+
+intitle:"phpMyAdmin"                # busqueda de paneles de php generalmente expuestos
+                                    # que generalmente dejan concontraseñas default

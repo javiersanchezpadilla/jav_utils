@@ -1,0 +1,21 @@
+¿Qué es HTTPie?
+
+A. Herramienta de linea de comandos. 
+    Permite hacer peticiones HTTP facilmente desde la terminal
+
+B. Ideal para aPIs.
+    Perfecto para probar, depurar y cosumir APIs REST de forma mas legible
+
+C. Sintaxis intuitiva
+    Usa una sintaxis humana, mucho mas facil de leer que curl.
+
+D. Compatible con JSON.
+    Envia y recive datis en formato JSON con facilidad.
+
+E. Soporta todo los metodos HTTP.
+    GET, POST, PUT, PATCH, DELETE.
+
+F. Extensible
+    Funciona con plugins y puede integrarse con flujos de trabajo de desarrollo
+    
+

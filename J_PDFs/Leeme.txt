@@ -1,0 +1,16 @@
+En esta sección se muestra la creación de archivos PDFs
+
+Dentro de las siuientes carpetas se explica como hacerlo
+
+FPDF    MEdiante la libreria fpdf
+
+La carpeta FPDF2 es la mejor opción, de hecho los archivos creados 
+en PDF de ejemplo fueron creados con el programa dentro de FPDF2,
+la libreria de uso es la misma fpdf, solo que se apoya con el uso 
+de pandas para leer los datos de un archivo CSV, tener cuidado al 
+hacer pruebas con los delimitadores entre campos, no importa si es
+la coma o punto y coma como separador, al momento de usar la 
+instrucción para generar el dataframe, debemos indicar el delimitador
+
+                               vvvvvvvvvvvv
+df = pd.read_csv(ruta_archivo, delimiter=";")
