@@ -13,4 +13,4 @@
 d = {'a':1, 'b':2}
 resultado = d.get('c', []).append(3)
 
-print(resultado)
+print(resultado)    # None
