@@ -26,6 +26,8 @@ print('Quitar los espacios en blando de la izquierda:', texto.lstrip())
 print('Quitar los espacios en blanco de la derecha:', texto.rstrip())
 print('Quitar los espacios en ambos lados:', texto.strip())
 
+
+# INYECCION DE VALORES MEDIANTE FORMAT.
 # REEMPLAZANDO CADENAS lstrip, rstrip y strip no solo quita espacios
 nueva_cadena = 'www.python.org'
 
